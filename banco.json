@@ -1,0 +1,174 @@
+{
+    "produtos" : [{
+        "id" : 1,
+        "nome" : "Fone de ouvido Philips",
+        "preco" : 25.49,
+        "imagem" : ["fone I.jpg", "fone II.jpg", "fone III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Marca: Philips", "Linha: Série 1000", "Tipo: Intra-auricular", "Sensibilidade: 106dB", "Frequência: 20Hz-20KHz"]
+    }, {
+        "id" : 2,
+        "nome" : "Teclado Mecânico RGB",
+        "preco" : 122.55,
+        "imagem" : ["teclado I.jpg", "teclado II.jpg", "teclado III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "gamer",
+        "especificacoes" : ["Marca: TGT", "Interface: USB 2.0", "Cabo: USB-C", "Corrente: 100mA", "Dimensões: 287.9 x 100.03 x 40 mm"]
+    }, {
+        "id" : 3,
+        "nome" : "Fone de Ouvido Bluetooth",
+        "preco" : 50.91,
+        "imagem" : ["fone_gato I.jpg", "fone_gato II.jpg", "fone_gato III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 30,
+        "uso_tipo" : "gamer",
+        "especificacoes" : ["Marca: Genérico", "Linha: Ear Cat", "Modelo: Genérico", "Formato: Headset", "Modelo Alfanumérico: Bluetooth"]
+    }, {
+        "id" : 4,
+        "nome" : "Teclado Preto Bright",
+        "preco" : 29.99,
+        "imagem" : ["teclado_preto I.jpg", "teclado_preto II.jpg", "teclado_preto III.jpg"],
+        "quantidade" : 0,
+        "pop" : true,
+        "promocao" : 0,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Marca: Bright", "Série: OfficeEasy", "Cabo: USB-A", "Peso: 320 g", "Fonte de alimentação: Não aplicável"]
+    }, {
+        "id" : 5,
+        "nome" : "Mouse Gamer Estone",
+        "preco" : 22.15,
+        "imagem" : ["mouse_gamer I.jpg", "mouse_gamer II.jpg", "mouse_gamer III.jpg"],
+        "quantidade" : 0,
+        "pop" : true,
+        "promocao" : 0,
+        "uso_tipo" : "gamer",
+        "especificacoes" : ["Marca: Estone", "Fabricante: J FANG ELETRONICOS EPP", "Característica: Design ergonômico", "Resolução do sensor óptico: 2400.0, 3200.0 dots_per_inch", "Cabo: USB-C"]
+    }, {
+        "id" : 6,
+        "nome" : "Mouse Multilaser",
+        "preco" : 15.99,
+        "imagem" : ["mouse I.jpg", "mouse II.jpg", "mouse III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Marca: Multilaser", "Fabricante: Multilaser", "DPI: 1200", "Modelo: MO300", "Cabo: USB-C"]
+    }, {
+        "id" : 7,
+        "nome" : "Mousepad Master",
+        "preco" : 89.99,
+        "imagem" : ["mousepad_longo I.jpg", "mousepad_longo II.jpg", "mousepad_longo III.jpg"],
+        "quantidade" : 0,
+        "pop" : true,
+        "promocao" : 20,
+        "uso_tipo" : "gamer",
+        "especificacoes" : ["Marca:  Cooler Maste", "Modelo: MP-511-SPEC1", "Material base: Borracha Natural", "Tamanho do Mouse Pad: 900 x 400 x 3 mm ± 5 mm", "Cor da costura: Roxo"]
+    }, {
+        "id" : 8,
+        "nome" : "Mousepad Maxprint",
+        "preco" : 12.55,
+        "imagem" : ["mousepad I.jpg", "mousepad II.jpg", "mousepad III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Marca: Maxprint", "Modelo: 603579", "Composição: Tecido e EVA sintética", "Espessura: 4mm", "Largura do Produto: 17,8cm"]
+    }, {
+        "id" : 9,
+        "nome" : "Fone Bluetooth Philips",
+        "preco" : 84.99,
+        "imagem" : ["fone_bluetooth I.jpg", "fone_bluetooth II.jpg", "fone_bluetooth III.jpg"],
+        "quantidade" : 0,
+        "pop" : true,
+        "promocao" : 50,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Marca: Philips", "Fabricante: Genérico", "Modelo: 151631", "Dimensões da embalagem: 10 x 8 x 4 cm; 129 g"] 
+    }, {
+        "id" : 10,
+        "nome" : "Monitor Brazil Pc",
+        "preco" : 229.25,
+        "imagem" : ["monitor I.jpg", "monitor II.jpg", "monitor III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Marca: Brazil PC", "Modelo: 19BP19WE02-B", "Tamanho da tela: 49.5 cm", "Resolução máxima: 1440 x 900"]
+    }, {
+        "id" : 11,
+        "nome" : "Monitor Gamer Philips",
+        "preco" : 284.99,
+        "imagem" : ["monitor_philips I.jpg", "monitor_philips II.jpg", "monitor_philips III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "gamer",
+        "especificacoes" : ["Marca: Philips", "Modelo: 24M2N3200L", "Tamanho: 23,8", "Formato de tela: Widescreen", "Proporção de tela: 16:9"]
+    }, {
+        "id" : 12,
+        "nome" : "Pendrive Multilazer 16GB",
+        "preco" : 26.99,
+        "imagem" : ["pendrive I.jpg", "pendrive II.jpg", "pendrive III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Marca: Multilaser", "Capacidade: 16GB", "Taxa de transmissão: 13MB/s", "Conexão: USB 2.0", "Tensão: DC 5V"]
+    }, {
+        "id" : 13,
+        "nome" : "Pendrive Sandisk 128GB",
+        "preco" : 90.01,
+        "imagem" : ["pendrive_128 I.jpg", "pendrive_128 II.jpg", "pendrive_128 III.jpg"],
+        "quantidade" : 0,
+        "pop" : true,
+        "promocao" : 0,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Marca: SANDISK", "Modelo: SDCZ50-128G-B35", "Capacidade: 128GB", "Interface: USB 2.0"]
+    }, {
+        "id" : 14,
+        "nome" : "Microfone com fio Knup",
+        "preco" : 39.95,
+        "imagem" : ["microfone_fio I.jpg", "microfone_fio II.jpg", "microfone_fio III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 10,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Características: cancelamento de ruído", "Sensibilidade de áudio: 30Db", "Fonte de alimentação: Elétrico com fio", "Resposta de frequência: 50Hz"]
+    }, {
+        "id" : 15,
+        "nome" : "Microfone Rise sem fio",
+        "preco" : 72.51,
+        "imagem" : ["microfone I.jpg", "microfone II.jpg", "microfone III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "gamer",
+        "especificacoes" : ["Marca: Rise Mode", "Modelo: RM-ME-01-B", "Material: ABS + Metal", "Sensibilidade: -45±3dB", "Nível de ruído: 85dB"]
+    }, {
+        "id" : 16,
+        "nome" : "Caixa de Som C3TECH",
+        "preco" : 34.35,
+        "imagem" : ["som I.jpg", "som II.jpg", "som III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["MARCA: C3TECH", "MODELO: SP-301BK", "Sistema de Áudio: 2.0", "Corrente: 100mA"]
+    }, {
+        "id" : 17,
+        "nome" : "Webcam Ixshop Full HD",
+        "preco" : 29.99,
+        "imagem" : ["webcam I.jpg", "webcam II.jpg", "webcam III.jpg"],
+        "quantidade" : 0,
+        "pop" : false,
+        "promocao" : 0,
+        "uso_tipo" : "casual",
+        "especificacoes" : ["Marca: Genérico", "Tela: 5 polegadas", "Entrada de cartão de memória: HDD", "Modelo: GLT-0001-WB"]
+    }
+    ]
+}

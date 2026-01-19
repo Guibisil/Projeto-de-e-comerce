@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carrinho</title>
+    <link rel="icon" href="">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<!-- Topo -->
+
+<header class="container-fluid bg-primary text-white d-flex justify-content-between align-items-center py-3">
+
+    <article>
+        <a href="index.html"><img src="imagens/casa.png" alt="Início" width="40"></a>
+    </article>
+
+    <article class="w-50">
+        <div class="input-group w-75" style="min-width: 250px;">
+            <input type="text" id="busca_top" placeholder="Pesquisa..." class="form-control">
+            <button class="btn btn-warning" id="botao_index" onclick="pesquisa_catalogo()">Pesquisar</button>
+        </div>
+    </article>
+
+    <article>
+        <a href="catalogo.html"><img src="imagens/catalogo.png" alt="Carrinho" width="40"></a>
+    </article>
+
+</header>
+
+<!-- Principal -->
+
+<section class="container-fluid py-5 flex-grow-1">
+    <div class="row" style="padding-left: 20px; padding-right: 20px;">
+
+        <main class="flex-grow-1 container col-md-3 align-items-center justify-content-center text-center">
+            <section class="bg-white rounded-3 py-5" style="height: 100%;">
+                <article class="mb-3"><h5>Preço total:</h5></article>
+                <article class="mb-5 pb-5 pt-3" id="total_pagar"><h4>R$ ---</h4></article>
+
+                <article class="d-grid m-3 mt-4">
+                    <button class="btn btn-outline-primary btn-block">Pagamento</button>
+                </article>
+
+            </section>
+            
+        </main>
+
+        <!-- Produtos -->
+        <aside class="container col-md-9 bg-white rounded-3 py-4 shadow-sm" style="height: fit-content;">
+    
+            <h5 class="text-start mb-4 px-2">Itens do Pedido</h5>
+
+            <div class="table-responsive">
+                <table class="table table-striped align-middle">
+                    <thead class="table-light">
+                        <tr class="text-center">
+                            <th scope="col" class="text-start">Produto</th>
+                            <th scope="col">Preço Unit.</th>
+                            <th scope="col">Qtd.</th>
+                            <th scope="col">Subtotal</th>
+                            <th scope="col" class="text-center">Remover</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="car_lista" class="text-center">
+                    </tbody>
+
+                </table>
+            </div>
+        </aside>
+        
+    </div>
+</section>
+
+<!-- Baixo -->
+
+<footer class="container-fluid bg-primary text-white d-flex justify-content-between align-items-center py-3">
+
+    <article class="lh-1">
+        <p class="h6 mb-1">Guib's @ 2026</p>
+        <p class="mb-0">guibs@gmail.com</p>
+        <p class="mg-0">+55 (054) 99110-2112</p>
+    </article>
+
+    <article>
+        <ul class="navbar-nav d-flex flex-row gap-3 pr-5" style="padding-right: 10px;"> 
+            <li class="nav-item">
+                <a href="https://www.instagram.com" class="link-opacity-75-hover">
+                    <img src="imagens/instagram.png" alt="Instagram" width="30">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.facebook.com" class="link-opacity-75-hover">
+                    <img src="imagens/facebook.png" alt="Facebook" width="30">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.x.com" class="link-opacity-75-hover">
+                    <img src="imagens/twitter.png" alt="X" width="30">
+                </a>
+            </li>
+        </ul>       
+    </article>
+
+</footer>
+
+<script src="carrinho.js"></script>
+
+</body>
+</html>
