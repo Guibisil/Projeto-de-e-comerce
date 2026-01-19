@@ -1,1 +1,1 @@
-Para rodar tem q ter live server!
+Para rodar o código, deve ser utilizado live server.
